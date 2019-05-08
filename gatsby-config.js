@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `FNE 25-90 - France Nature Environnement Doubs et Territoire de Belfort`,
+    description: `FNE 25-90 fédération des associations de protection de la Nature et de l'environnement Doubs - Territoire de Belfort`,
+    author: `@FNEasso`,
+    lang: `fr`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,16 +21,31 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `FNE2590`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#c90c0f`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-plugin-svgr',
+      options: {
+        prettier: true,         // use prettier to format JS code output (default)
+        svgo: false,             // use svgo to optimize SVGs (default)
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
+      options: {
+        //develop: true, // Activates purging in npm run develop
+        printRejected: true,
+        whitelist: ['has-text-weight-bold'],
+      },
+    }, // must be after other CSS plugins
   ],
 }
