@@ -12,7 +12,7 @@ const Join = () => (
     />
     <section class="hero is-primary">
       <div class="hero-body">
-        <div class="container is-fluid has-text-centered">
+        <div class="container has-text-centered">
           <h1>Participer à la protection de l'environnement</h1>
           <p><Link to="/nous-rejoindre/#adherer">Adhérez</Link> à France Nature Environnement 25-90 et <strong>devenez acteur local de la protection de l’environnement</strong>.</p>
           <p>Vous souhaitez devenir bénévole ? <Link to="/contact/">Contactez-nous !</Link></p>
@@ -20,7 +20,7 @@ const Join = () => (
       </div>
     </section>
     <section className="section" id="adherer">
-      <div className="container is-fluid">
+      <div className="container">
           <h1>Comment devenir adhérent ?</h1>
           <h2>Adhésion par courrier postal</h2>
           <p><a href="/adhesion2019.pdf">Télécharger le formulaire à imprimer et à nous retourner</a></p>
@@ -31,7 +31,7 @@ const Join = () => (
             allowtransparency="true"
             scrolling="auto"
             src="https://www.helloasso.com/associations/fne-25-90/adhesions/adhesion-fne-25-90/widget"
-            style={{ width: '100%', height: 750, border: 'none' }}
+            style={{ width: '100%', height: 850, border: 'none' }}
             title="Adhésion en ligne FNE2590"
           ></iframe>
       </div>

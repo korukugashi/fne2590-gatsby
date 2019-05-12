@@ -33,11 +33,11 @@ const Header = ({ siteTitle }) => (
                 <Link className="navbar-item" to="/fne-25-90/">
                   Qui sommes-nous ?
                 </Link>
-                <Link className="navbar-item" to="/fne-25-90/actions/">
-                  Nos actions
-                </Link>
                 <Link className="navbar-item" to="/fne-25-90/fne/">
                   Le mouvement FNE
+                </Link>
+                <Link className="navbar-item" to="/fne-25-90/actions/">
+                  Nos actions
                 </Link>
                 <hr className="navbar-divider" />
                 <Link className="navbar-item" to="/fne-25-90/membres/">

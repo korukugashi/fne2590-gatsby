@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1507 294">
+  <style>
+      text{text-transform:uppercase}
+      .c{font-family:Fira sans,Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif}.l{font-weight:300}.g{fill:#776f73}.r{fill:#c90c0f}.w{fill:#fff}
+  </style>
+  <path d="M1 0h574v97H1z" class="r"/>
+  <path stroke="#776f73" stroke-width="7" d="M228 272h283"/>
+  <path d="M498 252v40l75-20z" class="g"/>
+  <text x="15" y="77" class="c w" font-size="73" textLength="544">Le mouvement</text>
+  <text x="1" y="164" class="has-text-weight-bold c r" font-size="76" textLength="572">France Nature</text>
+  <text x="1" y="221" class="has-text-weight-bold c r" font-size="70" textLength="573">Environnement</text>
+  <text x="2" y="293" class="g c l" font-size="74" textLength="180">C’est</text>
+  <path d="M579 1h533v292H579z" class="g"/>
+  <path stroke="#fff" stroke-width="3" d="M749.668 15.28c.723.923 1.24 1.64 1.825 2.357a168.743 167.395 0 0 0 13.017 15.51 150.8 149.596 0 0 0 65.431 37.168 142.605 141.466 0 0 0 32.784 5.261 7.507 7.447 0 0 1 2.239.855 8.093 8.028 0 0 1-1.033 1.844 49.383 48.989 0 0 0-12.501 28.765c-.62 5.568-.207 11.273-.379 16.91a3.1 3.075 0 0 1-1.412 2.016 50.485 50.082 0 0 0-21.282 21.249c-1.722 3.416-2.962 6.832-4.442 10.248l.792.547 2.961-1.81a52.62 52.2 0 0 1 4.615-2.734 5.269 5.227 0 0 1 7.748 2.22 25.794 25.587 0 0 1 3.754 14.28c.172 6.32-.241 12.64-.344 18.96a42.151 41.814 0 0 0 11.226 29.62 85.508 84.825 0 0 0 8.782 8.061c1.24 1.025 1.377 1.777.585 3.04a80.067 79.427 0 0 1-35.092 31.396 5.166 5.124 0 0 1-5.475-.786 81.444 80.794 0 0 0-25.931-11.034c-17.494-3.792-28.721 4.817-35.195 19.472a67.876 67.334 0 0 0-2.996 9.326 2.927 2.904 0 0 1-3.72 2.46 435.528 432.049 0 0 1-75.348-15.407 137.095 136 0 0 1-33.508-14.382 13.43 13.323 0 0 1-1.584-1.162 11.709 11.615 0 0 1-1.343-1.571c2.617-2.426 5.407-4.68 7.852-7.277a68.875 68.324 0 0 0 18.01-40.994 105.31 104.468 0 0 0-6.267-49.194c-5.234-13.46-14.911-23.913-25.862-32.932a160.409 159.127 0 0 0-39.672-24.187 2.583 2.562 0 0 1-1.688-3.416 18.217 18.072 0 0 1 9.16-10.249 50.175 49.774 0 0 1 30.202-5.568 116.054 115.126 0 0 1 27.998 6.183c1.894.683 2.651-.342 3.443-1.571a25.243 25.04 0 0 0 2.411-17.526c-.448-3.245-1.515-6.388-2.204-9.6a13.775 13.665 0 0 1 0-2.698c3.96 2.904 7.3 5.637 10.951 7.926 23.555 14.758 43.426.478 49.108-18.55a85.611 84.927 0 0 0 2.445-13.665c.24-1.982.654-2.904 2.824-2.767a19.423 19.267 0 0 0 17.115-6.594z" class="g"/>
+  <path class="w" d="M672 89h147v42H672z"/>
+  <path stroke="#fff" stroke-width="3" d="M888 108h212"/>
+  <path d="M888 116h212v159H888z" class="r"/>
+  <text x="674" y="126" class="has-text-weight-bold r sohoma" font-size="39" textLength="140">850 000</text>
+  <text x="677" y="215" class="c l w" font-size="33" textLength="162">bénévoles</text>
+  <g class="sohoma w">
+    <text x="890" y="96" font-size="104">POUR</text>
+    <text x="898" y="190" class="has-text-weight-bold sohoma" font-size="87">3500</text>
+  </g>
+  <g class="l w">
+    <text x="896" y="225" font-size="30" textLength="196">associations</text>
+    <text x="896" y="271" font-size="46" textLength="196">affiliées</text>
+  </g>
+  <path fill="#dddce0" d="M1118 1h387v292h-387z"/>
+  <path d="M1218 62h199v144h-199z" class="r"/>
+  <g class="c g l" font-size="40">
+    <text x="1144" y="50" textLength="333">représentées par</text>
+    <text x="1144" y="98">les</text>
+  </g>
+  <text x="1233" y="189" class="has-text-weight-bold sohoma w" font-size="146">80</text>
+  <g class="has-text-weight-bold c r" font-size="38">
+    <text x="1188" y="238">associations</text>
+    <text x="1226" y="279" textLength="174">membres</text>
+  </g>
+</svg>

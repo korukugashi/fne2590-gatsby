@@ -11,7 +11,7 @@ const MentionsLegales = () => (
         description="FNE 25-90, Fédération des associations de protection de la Nature"
     />
     <section className="section">
-        <div className="container is-fluid">
+        <div className="container">
             <h1>Mentions légales</h1>
             <h2>Éditeur</h2>
             <p><strong><Link to="/">FNE 25-90</Link>, Fédération des associations de protection de la Nature</strong></p>
