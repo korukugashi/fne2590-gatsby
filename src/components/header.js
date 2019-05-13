@@ -29,8 +29,11 @@ const Header = class extends React.Component {
         <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
           <div className="container is-fluid">
             <div className="navbar-brand">
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item logo" to="/">
                 <Logo title={this.props.siteTitle} />
+                <div style={{ top : 33, left: 18 }}>FRANCE NATURE</div>
+                <div style={{ top : 41, left: 16 }}>ENVIRONNEMENT</div>
+                <div style={{ top: 50, left: 48, color: '#fff' }}>25&nbsp;-&nbsp;90</div>
               </Link>
     
               <div

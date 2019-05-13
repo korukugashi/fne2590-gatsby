@@ -1,9 +1,8 @@
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
+import { ReactComponent as NousContacter } from "../../images/nous-contacter.svg"
 import { ReactComponent as LogoFacebook } from "../../images/facebook.svg"
 
 const Contact = () => (
@@ -16,21 +15,12 @@ const Contact = () => (
         <section className="section" style={{ paddingTop: 0, paddingBottom: '1rem' }}>
             <div className="container">
                 <div className="columns is-centered">
-                    <h1 style={{ margin: `2rem` }}>
-                        <StaticQuery
-                            query={graphql`
-                            query {
-                                file(relativePath: { eq: "nous-contacter.png" }) {
-                                childImageSharp {
-                                    fixed(width: 304, height: 91) {
-                                    ...GatsbyImageSharpFixed
-                                    }
-                                }
-                                }
-                            }
-                            `}
-                            render={data => <Img fixed={data.file.childImageSharp.fixed} alt="Nous contacter" />}
-                        />
+                    <h1 style={{ margin: `0  0 2rem`, width: 304, height: 91, position: "relative", color: "#fff", fontWeight: "bold", fontSize: '2.9rem' }}>
+                        <NousContacter style={{ width: 304, position: "absolute", left: 0, top: 0 }} />
+                        <div style={{ position: 'absolute', top: 6, left: 10 }}>COMMENT</div>
+                        <div style={{ position: 'absolute', color: '#c90c0f', top: 60, left: 10, fontSize: '1.8rem' }}>NOUS</div>
+                        <div style={{ position: 'absolute', fontWeight: 'normal', top: 60, left: 108, fontSize: '1.8rem' }}>CONTACTER</div>
+                        <div style={{ position: 'absolute', color: '#c90c0f', left: 260, fontSize: '5.8rem' }}>?</div>
                     </h1>
                 </div>
             </div>
