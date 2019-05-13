@@ -4,6 +4,7 @@ module.exports = {
     description: `FNE 25-90 fédération des associations de protection de la Nature et de l'environnement Doubs - Territoire de Belfort`,
     author: `@FNEasso`,
     lang: `fr`,
+    siteUrl: `https://www.fne2590.org`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,7 +27,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#c90c0f`,
         display: `minimal-ui`,
-        icon: `src/images/logo.svg`, // This path is relative to the root of the site.
+        icon: `src/images/herisson.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -39,6 +40,7 @@ module.exports = {
         svgo: false,             // use svgo to optimize SVGs (default)
       },
     },
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {

@@ -10,9 +10,9 @@ const Join = () => (
         title="Adhérer à FNE 25-90 / Devenir bénévole"
         description="Contribuez à la protection de la nature et l'environnement en adhérant à l'association et en vous engageant bénévolement"
     />
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container has-text-centered">
+    <section className="hero is-primary">
+      <div className="hero-body">
+        <div className="container has-text-centered">
           <h1>Participer à la protection de l'environnement</h1>
           <p><Link to="/nous-rejoindre/#adherer">Adhérez</Link> à France Nature Environnement 25-90 et <strong>devenez acteur local de la protection de l’environnement</strong>.</p>
           <p>Vous souhaitez devenir bénévole ? <Link to="/contact/">Contactez-nous !</Link></p>

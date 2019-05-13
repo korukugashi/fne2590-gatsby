@@ -67,22 +67,22 @@ const FNE2590 = () => (
         </style>
         <div id="methode">
           <Methode />
-          <div id="mb1" class="mbtxt">En assurant la sensibilisation citoyenne avec l’appui des associations membres de la fédération</div>
+          <div id="mb1" className="mbtxt">En assurant la sensibilisation citoyenne avec l’appui des associations membres de la fédération</div>
           <div id="mb2">
-              <div class="mbtitle" style={{ "color": "#79a6d4" }}>COMPRENDRE</div>
-              <div class="mbtxt">Nous dialoguons en permanence avec l'ensemble de la société civile et plaidons la cause de l'environnement auprès des décideurs. Impliqués dans le débat public, nous proposons des solutions concrètes pour la résolution des problématiques environnementales locales.</div>
+              <div className="mbtitle" style={{ "color": "#79a6d4" }}>COMPRENDRE</div>
+              <div className="mbtxt">Nous dialoguons en permanence avec l'ensemble de la société civile et plaidons la cause de l'environnement auprès des décideurs. Impliqués dans le débat public, nous proposons des solutions concrètes pour la résolution des problématiques environnementales locales.</div>
           </div>
           <div id="mb3">
-              <div class="mbtitle" style={{ "color": "#c8758e" }}>CONVAINCRE</div>
-              <div class="mbtxt">Face à l'urgence écologique, nous déployons tous les outils de la démocratie. Nous alertons l'opinion publique et allons en justice quand le droit de l'environnement n'est pas respecté. </div>
+              <div className="mbtitle" style={{ "color": "#c8758e" }}>CONVAINCRE</div>
+              <div className="mbtxt">Face à l'urgence écologique, nous déployons tous les outils de la démocratie. Nous alertons l'opinion publique et allons en justice quand le droit de l'environnement n'est pas respecté. </div>
           </div>
           <div id="mb4">
-              <div  class="mbtitle" style={{ "color": "#a38a75" }}>MOBILISER</div>
-              <div class="mbtxt">Pour que chacun détienne les clés du débat environnemental, nous informons les citoyens et menons des actions ciblées de sensibilisation.</div>
+              <div  className="mbtitle" style={{ "color": "#a38a75" }}>MOBILISER</div>
+              <div className="mbtxt">Pour que chacun détienne les clés du débat environnemental, nous informons les citoyens et menons des actions ciblées de sensibilisation.</div>
           </div>
           <div id="mb5">
-              <div  class="mbtitle" style={{ "color": "#7cb928" }}>DÉFENDRE</div>
-              <div class="mbtxt">Pour bien protéger la nature et l'environnement, il est indispensable d'en saisir la complexité. Présents sur le terrain, militants et indépendants, nous menons un travail de fond qui nourrit nos positions.</div>
+              <div  className="mbtitle" style={{ "color": "#7cb928" }}>DÉFENDRE</div>
+              <div className="mbtxt">Pour bien protéger la nature et l'environnement, il est indispensable d'en saisir la complexité. Présents sur le terrain, militants et indépendants, nous menons un travail de fond qui nourrit nos positions.</div>
           </div>
           <div id="mb6">FNE 25-90</div>
           <div id="mb7">ENSEMBLE, POUR LA NATURE</div>

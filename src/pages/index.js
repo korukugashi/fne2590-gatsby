@@ -31,12 +31,14 @@ const IndexPage = () => (
                 </h1>
               </div>
               
-              <div className="column">FNE 25-90, association loi 1901 adhérente au {' '}
-                <Link to="/fne-25-90/fne/">réseau national</Link> de France Nature Environnement, est{' '}
-                <strong>
-                  <Link to="/fne-25-90/">la fédération départementale</Link> des associations de protection de la Nature 
-                  et de l'environnement du Doubs et du Territoire de Belfort.
-                </strong>
+              <div className="column">
+                <p>FNE 25-90, association loi 1901 adhérente au {' '}
+                  <Link to="/fne-25-90/fne/">réseau national</Link> de France Nature Environnement, est{' '}
+                  <strong>
+                    <Link to="/fne-25-90/">la fédération départementale</Link> des associations de protection de la Nature 
+                    et de l'environnement du Doubs et du Territoire de Belfort.
+                  </strong>
+                </p>
               </div>
             </div>
             <div className="saira columns is-centered is-vcentered is-hidden-touch" style={{
@@ -84,16 +86,16 @@ const IndexPage = () => (
               <article className="box">
                 <h1 className="title">Opération recensement du hérisson</h1>
                 <p>Aidez-nous à recenser le hérisson pour le protéger !</p>
-                <Link>Participer</Link>
+                <Link to="/">Participer</Link>
               </article>
               <article className="box">
                 <h1 className="title">Dernières publications</h1>
                 <ul>
-                  <li><Link>Revue de presse - février 2019</Link></li>
-                  <li><Link>La Champignonnière Terrifortaine</Link></li>
-                  <li><Link>Débat public : l'eau potable, une affaire de santé</Link></li>
-                  <li><Link>Cartes vertes : actions locales favorables à l’environnement</Link></li>
-                  <li><Link>Les sites Natura 2000</Link></li>
+                  <li><Link to="/">Revue de presse - février 2019</Link></li>
+                  <li><Link to="/">La Champignonnière Terrifortaine</Link></li>
+                  <li><Link to="/">Débat public : l'eau potable, une affaire de santé</Link></li>
+                  <li><Link to="/">Cartes vertes : actions locales favorables à l’environnement</Link></li>
+                  <li><Link to="/">Les sites Natura 2000</Link></li>
                 </ul>
               </article>
             </aside>
