@@ -44,6 +44,9 @@ const Header = class extends React.Component {
                 aria-expanded="false"
                 data-target="mainNavbar"
                 onClick={ () => this.toggleHamburger() }
+                onKeyDown={ (ev) => { if (ev === 13) this.toggleHamburger() } }
+                role="button"
+                tabIndex={0}
               >
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -66,8 +69,12 @@ const Header = class extends React.Component {
                     <Link className="navbar-item" to="/fne-25-90/fne/">
                       Le mouvement FNE
                     </Link>
+                    <Link className="navbar-item" to="/fne-25-90/missions/">
+                      Nos missions
+                    </Link>
+                    <hr className="navbar-divider" />
                     <Link className="navbar-item" to="/fne-25-90/actions/">
-                      Nos actions
+                      Actions en cours
                     </Link>
                     <hr className="navbar-divider" />
                     <Link className="navbar-item" to="/fne-25-90/membres/">
@@ -79,7 +86,8 @@ const Header = class extends React.Component {
                   </div>
                 </div>
     
-                <Link className="navbar-item" to="/publications/">Publications</Link>
+                <Link className="navbar-item" to="/actualites/">Actualités</Link>
+                <Link className="navbar-item" to="/mediatheque/">Médiathèque</Link>
                 <Link className="navbar-item" to="/nous-rejoindre/">Nous rejoindre</Link>
                 <Link className="navbar-item" to="/contact/">Contact</Link>
               </div>

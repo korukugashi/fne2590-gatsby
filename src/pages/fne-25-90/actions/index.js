@@ -16,76 +16,53 @@ const Actions = () => (
     />
     <section className="section" style={{ paddingTop: 0 }}>
       <div className="container">
-        <h1>Nos actions</h1>
-        <h2>Fédérer</h2>
-        <div className="media">
-          <figure className="media-left is-hidden-mobile">
-            <p className="image is-128x128">
-              <Federer />
-            </p>
-          </figure>
-          <div className="media-content">
-            <div className="content">
-              <p className="sohoma has-text-weight-bold">Nous mettons en relation nos associations membres afin de co-construire des actions pour la préservation de l’environnement.</p>
-              <p>Nous faisons entendre auprès des pouvoirs publics, des élus, des médias et de la société civile la voix des associations de protection de la nature et de l'environnement réunies dans un même mouvement. Nous affirmons notre culture commune, favorisons les échanges d'idées et le partage de bonnes pratiques, et encourageons le bénévolat. Nous croisons nos analyses et veillons à la cohérence et à la complémentarité des plaidoyers.</p>
-            </div>
-          </div>
-        </div>
-        <h2>Accompagner et sensibiliser</h2>
-        <div className="media">
-          <figure className="media-left is-hidden-mobile">
-            <p className="image is-128x128">
-              <Accompagner />
-            </p>
-          </figure>
-          <div className="media-content">
-            <div className="content">
-              <p className="sohoma has-text-weight-bold">Entre professionnels et grand public, nous abordons des thématiques écologiques afin de réinventer un nouveau modèle de développement : production, consommation, transition énergétique...</p>
-              <p>Des actions destinées soit aux adultes, aux enfants, à tout public, à des groupes socio-professionnels, à des organisateurs, et qui se déclinent sous différentes formes : animations au sein d’établissements scolaires ou de formation, accueil de groupes à la maison de l’environnement, sur des stands lors de manifestations, en sorties natures, réunions débats, expertises auprès de professionnels...</p>
-            </div>
-          </div>
-        </div>
-        <h2>Veille environnementale</h2>
-        <div className="media">
-          <figure className="media-left is-hidden-mobile">
-            <p className="image is-128x128">
-              <Veille />
-            </p>
-          </figure>
-          <div className="media-content">
-            <div className="content">
-              <p className="sohoma has-text-weight-bold">Nous sommes constamment à la recherche de l’actualité environnementale de nos territoires afin d’en informer les citoyens et d’intervenir en cas de problèmes.</p>
-              <p>Pour mieux protéger la nature et l'environnement, il est indispensable d'en saisir la complexité. Présents sur le terrain, militants et indépendants, nous menons un travail de fond. Notre capacité d’expertise nourrit nos positions. Nous partageons nos connaissances, pour que chacun détienne les clés du débat environnemental, nous informons les citoyens et menons des actions ciblées de sensibilisation. Nous encourageons et valorisons l'engagement associatif.</p>
-            </div>
-          </div>
-        </div>
+        <h1>Nos actions en 2019-2020</h1>
+        <h2>Chantiers bénévoles</h2>
+        <ul>
+          <li>plantations de haies (programme <a href="http://fne-bfc.fr/biodiversithaies/">Biodiversit’haies</a>)</li>
+          <li>récoltes <a href="http://fne-bfc.fr/vegetal-local-_-le-bilan-des-recoltes-2019/">végétal local</a></li>
+        </ul>
+        <h2>Animations, tenue de stands</h2>
+        <ul>
+          <li>Fête de la science</li>
+          <li>Journée du Patrimoine</li>
+          <li>Marché "Vert et Solidaire" à Besançon</li>
+          <li>Marché bio à Le Belieu</li>
+        </ul>
+        <h2>Participation aux concertations publiques, communiqués de presse</h2>
+        <ul>
+          <li>RN57 Contournement de Besançon entre Beure et Micropolis</li>
+          <li>Zone de Marchaux</li>
+          <li>poulaillers industriels de Flangebouche et Rigney</li>
+        </ul>
         <h2>Débat public</h2>
-        <div className="media">
-          <figure className="media-left is-hidden-mobile">
-            <p className="image is-128x128">
-              <StaticQuery
-                query={graphql`
-                  query {
-                    file(relativePath: { eq: "debat-public.png" }) {
-                      childImageSharp {
-                        fixed(width: 128, height: 86) {
-                          ...GatsbyImageSharpFixed
-                        }
-                      }
-                    }
-                  }
-                `}
-                render={data => <Img fixed={data.file.childImageSharp.fixed} alt="Débat public" />}
-              />
-            </p>
-          </figure>
-          <div className="media-content">
-            <div className="content">
-              <p className="sohoma has-text-weight-bold">Nous offrons la possibilité de construire un débat citoyen autour des thématiques environnementales.</p>
-              <p>Dans une société démocratique, l'intérêt général est à préserver de tout intérêt privé ou personnel. A travers l'existence d'un débat public, le mouvement citoyen, dont le réseau des associations investi dans la protection de l'environnement fait partie, doit pouvoir s'exprimer et être entendu. C'est dans cet esprit que le plateau débat public s'est créé.</p>
-            </div>
-          </div>
-        </div>
+        <ul>
+          <li>l'eau potable, l'affaire de tous (3 octobre 2019)</li>
+          <li>conférence-Débat Agriculture eau et ville (12 février 2019)</li>
+        </ul>
+        <h2>Commissions</h2>
+        <ul>
+          <li>CODERST</li>
+          <li>CDOA</li>
+          <li>CDPENAF</li>
+        </ul>
+        <h2>Groupes de travail</h2>
+        <ul>
+          <li>Urbanisme</li>
+          <li>Agriculture, santé et environnement</li>
+        </ul>
+        <h2>Actions en justice</h2>
+        <ul>
+          <li>Jardins des Vaites</li>
+        </ul>
+        <h2>Economie circulaire</h2>
+        <ul>
+          <li>La Champignonnière Terrifortaine</li>
+        </ul>
+        <h2>Veille écologique</h2>
+        <ul>
+          <li>Revue de presse</li>
+        </ul>
       </div>
     </section>
     
