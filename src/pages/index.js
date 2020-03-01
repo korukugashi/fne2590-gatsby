@@ -11,7 +11,7 @@ const IndexPage = () => (
       query {
         heroImage: file(relativePath: { eq: "frasne.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 1500) {
+            fluid(maxWidth: 2000) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
