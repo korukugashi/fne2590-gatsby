@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { ReactComponent as Herisson}  from "../images/herisson.svg"
-import { ReactComponent as Logo}  from "../images/logo.svg"
 
 const Header = class extends React.Component {
   constructor(props) {
@@ -31,11 +30,10 @@ const Header = class extends React.Component {
           <div className="container is-fluid">
             <div className="navbar-brand">
               <Link className="navbar-item logo" to="/" title={this.props.siteTitle}>
-                <Herisson id="herisson" style={{ width: 37, height: 37, top: 0, left: 21 }} />
-                <Logo style={{ width: 60,  height: 60 }} />
-                <div style={{ top : 24, left: 18, width: 61 }}>FRANCE NATURE</div>
-                <div style={{ top : 32, left: 16 }}>ENVIRONNEMENT</div>
-                <div style={{ top: 41, left: 48, color: '#fff' }}>25&nbsp;-&nbsp;90</div>
+                <Herisson id="herisson" style={{ width: 70, height: 70, top: 0, left: 21 }} />
+                <div style={{ top: 7, left: 104, width: 120 }}>FRANCE NATURE</div>
+                <div style={{ top : 24, left: 100 }}>ENVIRONNEMENT</div>
+                <div style={{ top: 5, left: 220, fontSize: '2rem' }}>25&nbsp;-&nbsp;90</div>
               </Link>
     
               <div
@@ -59,7 +57,7 @@ const Header = class extends React.Component {
                 <Link className="navbar-item" to="/">Accueil</Link>
                 <div className="navbar-item has-dropdown is-hoverable">
                   <Link className="navbar-link" to="/fne-25-90/">
-                    L'association FNE 25-90
+                    L'association
                   </Link>
     
                   <div className="navbar-dropdown">
